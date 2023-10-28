@@ -1,7 +1,7 @@
 from pyrogram import filters
-from pyrogram import Client
+from pyrogram import Client as bot
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from main import LOGGER, prefixes, AUTH_USERS, bot
+from main import LOGGER, prefixes, AUTH_USERS
 from config import Config
 import os
 import sys
