@@ -1,5 +1,5 @@
 from pyrogram import filters
-from pyrogram import Client
+from pyrogram import Client as bot
 from pyrogram.types import Message
 from main import LOGGER, prefixes, AUTH_USERS, bot
 from config import Config
