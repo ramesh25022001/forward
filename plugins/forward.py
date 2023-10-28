@@ -8,7 +8,7 @@ import os
 import sys
 
 @bot.on_message(filters.command("forward", prefixes=prefixes) & filters.me)
-async def forward(bot: Client, m: Message):
+async def forward(bot: bot, m: Message):
     find = m.command
     if find and len(find) >= 4:
         t_chat = int(find[1])
