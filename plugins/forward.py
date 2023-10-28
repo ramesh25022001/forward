@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram import Client
 from pyrogram.types import Message
-from main import LOGGER, prefixes, AUTH_USERS
+from main import LOGGER, prefixes, AUTH_USERS, bot
 from config import Config
 import time
 import os
